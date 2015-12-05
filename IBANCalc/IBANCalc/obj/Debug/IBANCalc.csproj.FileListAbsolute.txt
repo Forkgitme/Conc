@@ -4,3 +4,9 @@ c:\users\robin\documents\visual studio 2015\Projects\IBANCalc\IBANCalc\bin\Debug
 c:\users\robin\documents\visual studio 2015\Projects\IBANCalc\IBANCalc\obj\Debug\IBANCalc.csprojResolveAssemblyReference.cache
 c:\users\robin\documents\visual studio 2015\Projects\IBANCalc\IBANCalc\obj\Debug\IBANCalc.exe
 c:\users\robin\documents\visual studio 2015\Projects\IBANCalc\IBANCalc\obj\Debug\IBANCalc.pdb
+D:\robin\Documents\GitHub\Conc\IBANCalc\IBANCalc\bin\Debug\IBANCalc.exe.config
+D:\robin\Documents\GitHub\Conc\IBANCalc\IBANCalc\obj\Debug\IBANCalc.exe
+D:\robin\Documents\GitHub\Conc\IBANCalc\IBANCalc\obj\Debug\IBANCalc.pdb
+D:\robin\Documents\GitHub\Conc\IBANCalc\IBANCalc\bin\Debug\IBANCalc.exe
+D:\robin\Documents\GitHub\Conc\IBANCalc\IBANCalc\bin\Debug\IBANCalc.pdb
+D:\robin\Documents\GitHub\Conc\IBANCalc\IBANCalc\obj\Debug\IBANCalc.csprojResolveAssemblyReference.cache

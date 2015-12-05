@@ -18,7 +18,7 @@ namespace IBANCalc
 
             string[] input = i.Split(' ');
 
-          Program.L = int.Parse(input[0]);
+            Program.L = int.Parse(input[0]);
             Program.B = int.Parse(input[1]);
             Program.E = int.Parse(input[2]);
             Program.M = int.Parse(input[3]);

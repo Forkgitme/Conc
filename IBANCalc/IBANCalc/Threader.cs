@@ -16,6 +16,7 @@ namespace IBANCalc
         public Threader()
         {
             ts = new Thread[Program.P];
+            TaSlock = new TaS();
         }
 
         public virtual void makeThreads() { }
@@ -31,28 +32,51 @@ namespace IBANCalc
     }
 
     class hashThreader : Threader
-    {
-        public void hashing()
+    { 
+        int result = -1;
+
+        public hashThreader()
+        {
+        }
+
+        public override void makeThreads()
+        {
+            for (int t = 0; t < Program.P; t++)
+                ts[t] = new Thread(findHash);
+        }
+
+        public override void Start()
+        {
+            base.Start();
+
+            Console.WriteLine(result);
+        }
+
+        public void findHash(object mt)
         {
             SHA1 sha = SHA1.Create();
-            Console.WriteLine("Geef de SHA1 hash van een getal van 0 t/m 10, \nwaarbij het getal als string is gehashed.");
-            string hash = Console.ReadLine();
-            for (int i = 0; i < 11; i++)
+            int from = Program.B + (int)mt * (Program.E - Program.B) / Program.P;
+            int to = Program.B + ((int)mt + 1) * (Program.E - Program.B) / Program.P;
+            //Console.WriteLine("Thread " + mt + " evaluates from " + from + " to " + to + " (total domain: " + (to - from) + ").");
+
+            for (int bt = from; bt < to; bt++)
             {
-                byte[] hashArray = sha.ComputeHash(Encoding.ASCII.GetBytes(i.ToString()));
-                string newHash = "";
-                for (int hashPos = 0; hashPos < hashArray.Length; hashPos++)
-                    newHash += hashArray[hashPos].ToString("x2");
-                Console.WriteLine("De hash van {0} is {1}.", i, newHash);
-                if (newHash == hash)
-                {
-                    Console.WriteLine("Je zocht het getal " + i);
-                    Console.ReadLine();
+                if (result != -1)
                     return;
+                int b = bt;
+                if (Test.mTest(b))
+                {
+                    byte[] hashArray = sha.ComputeHash(Encoding.ASCII.GetBytes(b.ToString()));
+                    string newHash = "";
+                    for (int hashPos = 0; hashPos < hashArray.Length; hashPos++)
+                        newHash += hashArray[hashPos].ToString("x2");
+                    if (newHash == Program.H)
+                    {
+                        result = b;
+                    }
                 }
             }
-            Console.WriteLine("Getal niet gevonden.");
-            Console.ReadLine();
+
         }
     }
 

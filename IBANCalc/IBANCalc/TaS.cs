@@ -20,6 +20,6 @@ class TaS
 
     public void Unlock()
     {
-        Interlocked.Exchange(ref bit, 0);
+        bit = 0;
     }
 }

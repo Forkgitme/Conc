@@ -1,39 +1,39 @@
 Testcase;Status;Tijd;CPU;Omschrijving
-Single Threaded;Error;2.76;100%;Werkt je programma goed met maar 1 thread?
-Single Threaded;Error;0.85;100%;En met een grotere testcase?
-2 threads (Eigen Lock, 5 runs);Error;0.93;100%;Opwarmen: 2 threads (gemiddelde 5 runs)
-4 threads (Eigen Lock, 5 runs);Error;1.11;100%;Opwarmen: 4 threads (gemiddelde 5 runs)
-16 threads (Eigen Lock, 1 run);Error;0.83;100%;Echt lekker op gang: 16 threads
-7 threads (Eigen Lock, 3 runs);Error;0.80;100%;Nu geen saaie 2-macht: 7 threads
-Eerlijk delen;Error;0.84;100%;10 getallen over 3 threads verdelen
-Meer threads dan nummers;Error;1.02;100%;10 getallen over 17 threads verdelen
-Lijstmodus (Eigen Lock, 1 thread);Correct;0.01;100%;Dit is een test of de lijstmodus werkt
-Lijstmodus (Eigen Lock, 2 threads);Correct;0.00;100%;Dit is een test of de lijstmodus werkt
-Lijstmodus (C#-Lock, 2 threads);Correct;0.01;100%;Dit is een test of de lijstmodus werkt
-Eerlijk delen;Error;0.89;100%;10 getallen over 3 threads verdelen (lijstmodus)
-Meer threads dan nummers;Error;0.98;100%;10 getallen over 17 threads verdelen (lijstmodus)
-Zoekmodus;Error;1.03;100%;Voorbeeld uit opdracht (Eigen Lock)
-Zoekmodus;Error;0.80;100%;Voorbeeld uit opdracht (Eigen Lock)
-Zoekmodus;Error;0.85;100%;Strikzoekopdracht
-Zoekmodus;Error;0.80;100%;Terminatie
-1 thread (Eigen Lock, 5 runs);Error;0.86;100%;Baseline: 5 runs met 1 thread.
-Versnellingstest (Eigen Lock);Incorrect;-;-;Is je programma sneller met meer threads?
-2 threads (C#-Lock, 5 runs);Error;0.86;100%;C#-Lock: 2 threads (gemiddelde 5 runs)
-4 threads (C#-Lock, 5 runs);Error;0.88;100%;C#-Lock: 4 threads (gemiddelde 5 runs)
-1 thread (C#-Lock, 5 runs);Error;0.80;100%;Baseline: 5 runs met 1 thread.
-Versnellingstest (C#-Lock);Incorrect;-;-;Is je programma sneller met meer threads?
-Zoekmodus;Error;0.89;100%;Voorbeeld uit opdracht (C#-Lock)
-Zoekmodus;Error;0.76;100%;Groter zoekbereik
-Zoekmodus: 2 threads;Afgebroken;0.00;0%;Zoekmodus: 2 threads (gemiddelde 5 runs)
-Zoekmodus: 4 threads;Afgebroken;0.00;0%;Zoekmodus: 4 threads (gemiddelde 5 runs)
-Zoekmodus: 1 thread;Afgebroken;0.00;0%;Baseline: 5 runs met 1 thread.
-Versnellingstest (Zoekmodus);Incorrect;-;-;Is je programma sneller met meer threads?
-Lijstmodus (Eigen Lock, 8 threads);Afgebroken;0.00;0%;Dit is een test of de lijstmodus werkt
-Lijstmodus (C#-Lock, 8 threads);Afgebroken;0.00;0%;Dit is een test of de lijstmodus werkt
+Single Threaded;Correct;0,09;100%;Werkt je programma goed met maar 1 thread?
+Single Threaded;Correct;2,31;100%;En met een grotere testcase?
+2 threads (Eigen Lock, 5 runs);Correct;1,16;200%;Opwarmen: 2 threads (gemiddelde 5 runs)
+4 threads (Eigen Lock, 5 runs);Correct;0,69;361%;Opwarmen: 4 threads (gemiddelde 5 runs)
+16 threads (Eigen Lock, 1 run);Correct;0,70;353%;Echt lekker op gang: 16 threads
+7 threads (Eigen Lock, 3 runs);Correct;0,71;340%;Nu geen saaie 2-macht: 7 threads
+Eerlijk delen;Correct;0,01;100%;10 getallen over 3 threads verdelen
+Meer threads dan nummers;Correct;0,01;100%;10 getallen over 17 threads verdelen
+Lijstmodus (Eigen Lock, 1 thread);Correct;0,00;100%;Dit is een test of de lijstmodus werkt
+Lijstmodus (Eigen Lock, 2 threads);Correct;0,01;100%;Dit is een test of de lijstmodus werkt
+Lijstmodus (C#-Lock, 2 threads);Correct;0,00;100%;Dit is een test of de lijstmodus werkt
+Eerlijk delen;Correct;0,01;100%;10 getallen over 3 threads verdelen (lijstmodus)
+Meer threads dan nummers;Correct;0,01;100%;10 getallen over 17 threads verdelen (lijstmodus)
+Zoekmodus;Correct;0,01;100%;Voorbeeld uit opdracht (Eigen Lock)
+Zoekmodus;Correct;0,01;100%;Voorbeeld uit opdracht (Eigen Lock)
+Zoekmodus;Correct;0,01;100%;Strikzoekopdracht
+Zoekmodus;Correct;0,01;100%;Terminatie
+1 thread (Eigen Lock, 5 runs);Correct;2,32;100%;Baseline: 5 runs met 1 thread.
+Versnellingstest (Eigen Lock);Correct;-;-;Is je programma sneller met meer threads?
+2 threads (C#-Lock, 5 runs);Correct;1,16;196%;C#-Lock: 2 threads (gemiddelde 5 runs)
+4 threads (C#-Lock, 5 runs);Correct;0,68;367%;C#-Lock: 4 threads (gemiddelde 5 runs)
+1 thread (C#-Lock, 5 runs);Correct;2,31;100%;Baseline: 5 runs met 1 thread.
+Versnellingstest (C#-Lock);Correct;-;-;Is je programma sneller met meer threads?
+Zoekmodus;Correct;0,01;100%;Voorbeeld uit opdracht (C#-Lock)
+Zoekmodus;Correct;0,85;347%;Groter zoekbereik
+Zoekmodus: 2 threads;Correct;0,71;186%;Zoekmodus: 2 threads (gemiddelde 5 runs)
+Zoekmodus: 4 threads;Correct;0,47;341%;Zoekmodus: 4 threads (gemiddelde 5 runs)
+Zoekmodus: 1 thread;Correct;1,29;100%;Baseline: 5 runs met 1 thread.
+Versnellingstest (Zoekmodus);Correct;-;-;Is je programma sneller met meer threads?
+Lijstmodus (Eigen Lock, 8 threads);Correct;0,01;100%;Dit is een test of de lijstmodus werkt
+Lijstmodus (C#-Lock, 8 threads);Correct;0,00;100%;Dit is een test of de lijstmodus werkt
 
 ------------------------------------
 
-1;Single Threaded;Error;2.76;100%;Werkt je programma goed met maar 1 thread?
+1;Single Threaded;Correct;0,09;100%;Werkt je programma goed met maar 1 thread?
 Test 1 - Single Threaded
 Werkt je programma goed met maar 1 thread?
 
@@ -41,24 +41,16 @@ Invoer:
 0 139483 928234 11 1 0 0
 
 Uitvoer:
-(leeg)
+71705
 
-Foutmelding:
-Unhandled Exception: System.IndexOutOfRangeException: Index was outside the bounds of the array.
-   at System.String.get_Chars(Int32 index)
-   at IBANCalc.Test.mTest(Int32 accountnumber) in C:\Users\Robin\Documents\Visual Studio 2015\Projects\IBANCalc\IBANCalc\Test.cs:line 23
-   at IBANCalc.CountThreader.countNumbers(Object mt) in C:\Users\Robin\Documents\Visual Studio 2015\Projects\IBANCalc\IBANCalc\Threader.cs:line 124
-   at System.Threading.ThreadHelper.ThreadStart_Context(Object state)
-   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
-   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
-   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
-   at System.Threading.ThreadHelper.ThreadStart(Object obj)
+Verwachte uitvoer:
+71705
 
 Als het antwoord verkeerd is is er waarschijnlijk iets mis met je BSN-test.
 
 ------------------------------------
 
-2;Single Threaded;Error;0.85;100%;En met een grotere testcase?
+2;Single Threaded;Correct;2,31;100%;En met een grotere testcase?
 Test 2 - Single Threaded
 En met een grotere testcase?
 
@@ -66,24 +58,16 @@ Invoer:
 0 2824374 25823728 24 1 0 0
 
 Uitvoer:
-(leeg)
+958317
 
-Foutmelding:
-Unhandled Exception: System.IndexOutOfRangeException: Index was outside the bounds of the array.
-   at System.String.get_Chars(Int32 index)
-   at IBANCalc.Test.mTest(Int32 accountnumber) in C:\Users\Robin\Documents\Visual Studio 2015\Projects\IBANCalc\IBANCalc\Test.cs:line 23
-   at IBANCalc.CountThreader.countNumbers(Object mt) in C:\Users\Robin\Documents\Visual Studio 2015\Projects\IBANCalc\IBANCalc\Threader.cs:line 124
-   at System.Threading.ThreadHelper.ThreadStart_Context(Object state)
-   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
-   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
-   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
-   at System.Threading.ThreadHelper.ThreadStart(Object obj)
+Verwachte uitvoer:
+958317
 
 Als het antwoord verkeerd is is er waarschijnlijk iets mis met je BSN-test.
 
 ------------------------------------
 
-3;2 threads (Eigen Lock, 5 runs);Error;0.93;100%;Opwarmen: 2 threads (gemiddelde 5 runs)
+3;2 threads (Eigen Lock, 5 runs);Correct;1,16;200%;Opwarmen: 2 threads (gemiddelde 5 runs)
 Test 3 - 2 threads (Eigen Lock, 5 runs)
 Opwarmen: 2 threads (gemiddelde 5 runs)
 
@@ -91,32 +75,14 @@ Invoer:
 0 2824374 25823728 24 2 0 0
 
 Uitvoer:
-(leeg)
+958317
 
-Foutmelding:
-Unhandled Exception: 
-Unhandled Exception: System.IndexOutOfRangeException: Index was outside the bounds of the array.
-   at System.String.get_Chars(Int32 index)
-   at IBANCalc.Test.mTest(Int32 accountnumber) in C:\Users\Robin\Documents\Visual Studio 2015\Projects\IBANCalc\IBANCalc\Test.cs:line 23
-   at IBANCalc.CountThreader.countNumbers(Object mt) in C:\Users\Robin\Documents\Visual Studio 2015\Projects\IBANCalc\IBANCalc\Threader.cs:line 124
-   at System.Threading.ThreadHelper.ThreadStart_Context(Object state)
-   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
-   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
-   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
-   at System.Threading.ThreadHelper.ThreadStart(Object obj)
-System.IndexOutOfRangeException: Index was outside the bounds of the array.
-   at System.String.get_Chars(Int32 index)
-   at IBANCalc.Test.mTest(Int32 accountnumber) in C:\Users\Robin\Documents\Visual Studio 2015\Projects\IBANCalc\IBANCalc\Test.cs:line 23
-   at IBANCalc.CountThreader.countNumbers(Object mt) in C:\Users\Robin\Documents\Visual Studio 2015\Projects\IBANCalc\IBANCalc\Threader.cs:line 124
-   at System.Threading.ThreadHelper.ThreadStart_Context(Object state)
-   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
-   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
-   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
-   at System.Threading.ThreadHelper.ThreadStart(Object obj)
+Verwachte uitvoer:
+958317
 
 ------------------------------------
 
-4;4 threads (Eigen Lock, 5 runs);Error;1.11;100%;Opwarmen: 4 threads (gemiddelde 5 runs)
+4;4 threads (Eigen Lock, 5 runs);Correct;0,69;361%;Opwarmen: 4 threads (gemiddelde 5 runs)
 Test 4 - 4 threads (Eigen Lock, 5 runs)
 Opwarmen: 4 threads (gemiddelde 5 runs)
 
@@ -124,50 +90,14 @@ Invoer:
 0 2824374 25823728 24 4 0 0
 
 Uitvoer:
-(leeg)
+958317
 
-Foutmelding:
-Unhandled Exception: Unhandled Exception: Unhandled Exception: 
-Unhandled Exception: System.IndexOutOfRangeException: Index was outside the bounds of the array.
-   at System.String.get_Chars(Int32 index)
-   at IBANCalc.Test.mTest(Int32 accountnumber) in C:\Users\Robin\Documents\Visual Studio 2015\Projects\IBANCalc\IBANCalc\Test.cs:line 23
-   at IBANCalc.CountThreader.countNumbers(Object mt) in C:\Users\Robin\Documents\Visual Studio 2015\Projects\IBANCalc\IBANCalc\Threader.cs:line 124
-   at System.Threading.ThreadHelper.ThreadStart_Context(Object state)
-   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
-   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
-   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
-   at System.Threading.ThreadHelper.ThreadStart(Object obj)
-System.IndexOutOfRangeException: Index was outside the bounds of the array.
-   at System.String.get_Chars(Int32 index)
-   at IBANCalc.Test.mTest(Int32 accountnumber) in C:\Users\Robin\Documents\Visual Studio 2015\Projects\IBANCalc\IBANCalc\Test.cs:line 23
-   at IBANCalc.CountThreader.countNumbers(Object mt) in C:\Users\Robin\Documents\Visual Studio 2015\Projects\IBANCalc\IBANCalc\Threader.cs:line 116
-   at System.Threading.ThreadHelper.ThreadStart_Context(Object state)
-   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
-   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
-   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
-   at System.Threading.ThreadHelper.ThreadStart(Object obj)
-System.IndexOutOfRangeException: Index was outside the bounds of the array.
-   at System.String.get_Chars(Int32 index)
-   at IBANCalc.Test.mTest(Int32 accountnumber) in C:\Users\Robin\Documents\Visual Studio 2015\Projects\IBANCalc\IBANCalc\Test.cs:line 23
-   at IBANCalc.CountThreader.countNumbers(Object mt) in C:\Users\Robin\Documents\Visual Studio 2015\Projects\IBANCalc\IBANCalc\Threader.cs:line 124
-   at System.Threading.ThreadHelper.ThreadStart_Context(Object state)
-   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
-   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
-   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
-   at System.Threading.ThreadHelper.ThreadStart(Object obj)
-System.IndexOutOfRangeException: Index was outside the bounds of the array.
-   at System.String.get_Chars(Int32 index)
-   at IBANCalc.Test.mTest(Int32 accountnumber) in C:\Users\Robin\Documents\Visual Studio 2015\Projects\IBANCalc\IBANCalc\Test.cs:line 23
-   at IBANCalc.CountThreader.countNumbers(Object mt) in C:\Users\Robin\Documents\Visual Studio 2015\Projects\IBANCalc\IBANCalc\Threader.cs:line 124
-   at System.Threading.ThreadHelper.ThreadStart_Context(Object state)
-   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
-   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
-   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
-   at System.Threading.ThreadHelper.ThreadStart(Object obj)
+Verwachte uitvoer:
+958317
 
 ------------------------------------
 
-5;16 threads (Eigen Lock, 1 run);Error;0.83;100%;Echt lekker op gang: 16 threads
+5;16 threads (Eigen Lock, 1 run);Correct;0,70;353%;Echt lekker op gang: 16 threads
 Test 5 - 16 threads (Eigen Lock, 1 run)
 Echt lekker op gang: 16 threads
 
@@ -175,52 +105,14 @@ Invoer:
 0 2824374 25823728 24 16 0 0
 
 Uitvoer:
-(leeg)
+958317
 
-Foutmelding:
-Unhandled Exception: Unhandled Exception: Unhandled Exception: 
-Unhandled Exception: Unhandled Exception: Unhandled Exception: 
-Unhandled Exception: System.IndexOutOfRangeException: Index was outside the bounds of the array.
-   at System.String.get_Chars(Int32 index)
-   at IBANCalc.Test.mTest(Int32 accountnumber) in C:\Users\Robin\Documents\Visual Studio 2015\Projects\IBANCalc\IBANCalc\Test.cs:line 23
-   at IBANCalc.CountThreader.countNumbers(Object mt) in C:\Users\Robin\Documents\Visual Studio 2015\Projects\IBANCalc\IBANCalc\Threader.cs:line 124
-   at System.Threading.ThreadHelper.ThreadStart_Context(Object state)
-   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
-   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
-   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
-   at System.Threading.ThreadHelper.ThreadStart(Object obj)
-System.IndexOutOfRangeException: Index was outside the bounds of the array.
-   at System.String.get_Chars(Int32 index)
-   at IBANCalc.Test.mTest(Int32 accountnumber) in C:\Users\Robin\Documents\Visual Studio 2015\Projects\IBANCalc\IBANCalc\Test.cs:line 23
-   at IBANCalc.CountThreader.countNumbers(Object mt) in C:\Users\Robin\Documents\Visual Studio 2015\Projects\IBANCalc\IBANCalc\Threader.cs:line 124
-   at System.Threading.ThreadHelper.ThreadStart_Context(Object state)
-   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
-   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
-   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
-   at System.Threading.ThreadHelper.ThreadStart(Object obj)
-System.IndexOutOfRangeException: Index was outside the bounds of the array.
-   at System.String.get_Chars(Int32 index)
-   at IBANCalc.Test.mTest(Int32 accountnumber) in C:\Users\Robin\Documents\Visual Studio 2015\Projects\IBANCalc\IBANCalc\Test.cs:line 23
-   at IBANCalc.CountThreader.countNumbers(Object mt) in C:\Users\Robin\Documents\Visual Studio 2015\Projects\IBANCalc\IBANCalc\Threader.cs:line 124
-   at System.Threading.ThreadHelper.ThreadStart_Context(Object state)
-   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
-   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
-   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
-   at System.Threading.ThreadHelper.ThreadStart(Object obj)
-
-System.IndexOutOfRangeException: Index was outside the bounds of the array.
-   at System.String.get_Chars(Int32 index)
-   at IBANCalc.Test.mTest(Int32 accountnumber) in C:\Users\Robin\Documents\Visual Studio 2015\Projects\IBANCalc\IBANCalc\Test.cs:line 23
-   at IBANCalc.CountThreader.countNumbers(Object mt) in C:\Users\Robin\Documents\Visual Studio 2015\Projects\IBANCalc\IBANCalc\Threader.cs:line 124
-   at System.Threading.ThreadHelper.ThreadStart_Context(Object state)
-   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
-   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
-   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
-   at System.Threading.ThreadHelper.ThreadStart(Object obj)
+Verwachte uitvoer:
+958317
 
 ------------------------------------
 
-6;7 threads (Eigen Lock, 3 runs);Error;0.80;100%;Nu geen saaie 2-macht: 7 threads
+6;7 threads (Eigen Lock, 3 runs);Correct;0,71;340%;Nu geen saaie 2-macht: 7 threads
 Test 6 - 7 threads (Eigen Lock, 3 runs)
 Nu geen saaie 2-macht: 7 threads
 
@@ -228,51 +120,14 @@ Invoer:
 0 2824374 25823728 24 7 0 0
 
 Uitvoer:
-(leeg)
+958317
 
-Foutmelding:
-Unhandled Exception: Unhandled Exception: Unhandled Exception: Unhandled Exception: Unhandled Exception: 
-Unhandled Exception: 
-Unhandled Exception: System.IndexOutOfRangeException: Index was outside the bounds of the array.
-   at System.String.get_Chars(Int32 index)
-   at IBANCalc.Test.mTest(Int32 accountnumber) in C:\Users\Robin\Documents\Visual Studio 2015\Projects\IBANCalc\IBANCalc\Test.cs:line 23
-   at IBANCalc.CountThreader.countNumbers(Object mt) in C:\Users\Robin\Documents\Visual Studio 2015\Projects\IBANCalc\IBANCalc\Threader.cs:line 124
-   at System.Threading.ThreadHelper.ThreadStart_Context(Object state)
-   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
-   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
-   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
-   at System.Threading.ThreadHelper.ThreadStart(Object obj)
-System.IndexOutOfRangeException: Index was outside the bounds of the array.
-   at System.String.get_Chars(Int32 index)
-   at IBANCalc.Test.mTest(Int32 accountnumber) in C:\Users\Robin\Documents\Visual Studio 2015\Projects\IBANCalc\IBANCalc\Test.cs:line 23
-   at IBANCalc.CountThreader.countNumbers(Object mt) in C:\Users\Robin\Documents\Visual Studio 2015\Projects\IBANCalc\IBANCalc\Threader.cs:line 116
-   at System.Threading.ThreadHelper.ThreadStart_Context(Object state)
-   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
-   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
-   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
-   at System.Threading.ThreadHelper.ThreadStart(Object obj)
-System.IndexOutOfRangeException: Index was outside the bounds of the array.
-   at System.String.get_Chars(Int32 index)
-   at IBANCalc.Test.mTest(Int32 accountnumber) in C:\Users\Robin\Documents\Visual Studio 2015\Projects\IBANCalc\IBANCalc\Test.cs:line 23
-   at IBANCalc.CountThreader.countNumbers(Object mt) in C:\Users\Robin\Documents\Visual Studio 2015\Projects\IBANCalc\IBANCalc\Threader.cs:line 124
-   at System.Threading.ThreadHelper.ThreadStart_Context(Object state)
-   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
-   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
-   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
-   at System.Threading.ThreadHelper.ThreadStart(Object obj)
-System.IndexOutOfRangeException: Index was outside the bounds of the array.
-   at System.String.get_Chars(Int32 index)
-   at IBANCalc.Test.mTest(Int32 accountnumber) in C:\Users\Robin\Documents\Visual Studio 2015\Projects\IBANCalc\IBANCalc\Test.cs:line 23
-   at IBANCalc.CountThreader.countNumbers(Object mt) in C:\Users\Robin\Documents\Visual Studio 2015\Projects\IBANCalc\IBANCalc\Threader.cs:line 124
-   at System.Threading.ThreadHelper.ThreadStart_Context(Object state)
-   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
-   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
-   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
-   at System.Threading.ThreadHelper.ThreadStart(Object obj)
+Verwachte uitvoer:
+958317
 
 ------------------------------------
 
-7;Eerlijk delen;Error;0.84;100%;10 getallen over 3 threads verdelen
+7;Eerlijk delen;Correct;0,01;100%;10 getallen over 3 threads verdelen
 Test 7 - Eerlijk delen
 10 getallen over 3 threads verdelen
 
@@ -280,43 +135,16 @@ Invoer:
 0 0 10 1 3 0 0
 
 Uitvoer:
-(leeg)
+10
 
-Foutmelding:
-Unhandled Exception: Unhandled Exception: 
-Unhandled Exception: System.IndexOutOfRangeException: Index was outside the bounds of the array.
-   at System.String.get_Chars(Int32 index)
-   at IBANCalc.Test.mTest(Int32 accountnumber) in C:\Users\Robin\Documents\Visual Studio 2015\Projects\IBANCalc\IBANCalc\Test.cs:line 23
-   at IBANCalc.CountThreader.countNumbers(Object mt) in C:\Users\Robin\Documents\Visual Studio 2015\Projects\IBANCalc\IBANCalc\Threader.cs:line 124
-   at System.Threading.ThreadHelper.ThreadStart_Context(Object state)
-   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
-   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
-   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
-   at System.Threading.ThreadHelper.ThreadStart(Object obj)
-System.IndexOutOfRangeException: Index was outside the bounds of the array.
-   at System.String.get_Chars(Int32 index)
-   at IBANCalc.Test.mTest(Int32 accountnumber) in C:\Users\Robin\Documents\Visual Studio 2015\Projects\IBANCalc\IBANCalc\Test.cs:line 23
-   at IBANCalc.CountThreader.countNumbers(Object mt) in C:\Users\Robin\Documents\Visual Studio 2015\Projects\IBANCalc\IBANCalc\Threader.cs:line 124
-   at System.Threading.ThreadHelper.ThreadStart_Context(Object state)
-   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
-   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
-   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
-   at System.Threading.ThreadHelper.ThreadStart(Object obj)
-System.IndexOutOfRangeException: Index was outside the bounds of the array.
-   at System.String.get_Chars(Int32 index)
-   at IBANCalc.Test.mTest(Int32 accountnumber) in C:\Users\Robin\Documents\Visual Studio 2015\Projects\IBANCalc\IBANCalc\Test.cs:line 23
-   at IBANCalc.CountThreader.countNumbers(Object mt) in C:\Users\Robin\Documents\Visual Studio 2015\Projects\IBANCalc\IBANCalc\Threader.cs:line 116
-   at System.Threading.ThreadHelper.ThreadStart_Context(Object state)
-   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
-   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
-   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
-   at System.Threading.ThreadHelper.ThreadStart(Object obj)
+Verwachte uitvoer:
+10
 
 Let op: bij deze test is de modulus 1. Het is niet de bedoeling dat je dit afvangt als speciaal geval, deze test dient juist om te zien of je verdeling geen gaten laat vallen.
 
 ------------------------------------
 
-8;Meer threads dan nummers;Error;1.02;100%;10 getallen over 17 threads verdelen
+8;Meer threads dan nummers;Correct;0,01;100%;10 getallen over 17 threads verdelen
 Test 8 - Meer threads dan nummers
 10 getallen over 17 threads verdelen
 
@@ -324,53 +152,16 @@ Invoer:
 0 0 10 1 17 0 0
 
 Uitvoer:
-(leeg)
+10
 
-Foutmelding:
-Unhandled Exception: Unhandled Exception: Unhandled Exception: Unhandled Exception: 
-Unhandled Exception: 
-Unhandled Exception: System.IndexOutOfRangeException: Index was outside the bounds of the array.
-   at System.String.get_Chars(Int32 index)
-   at IBANCalc.Test.mTest(Int32 accountnumber) in C:\Users\Robin\Documents\Visual Studio 2015\Projects\IBANCalc\IBANCalc\Test.cs:line 23
-   at IBANCalc.CountThreader.countNumbers(Object mt) in C:\Users\Robin\Documents\Visual Studio 2015\Projects\IBANCalc\IBANCalc\Threader.cs:line 124
-   at System.Threading.ThreadHelper.ThreadStart_Context(Object state)
-   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
-   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
-   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
-   at System.Threading.ThreadHelper.ThreadStart(Object obj)
-System.IndexOutOfRangeException: Index was outside the bounds of the array.
-   at System.String.get_Chars(Int32 index)
-   at IBANCalc.Test.mTest(Int32 accountnumber) in C:\Users\Robin\Documents\Visual Studio 2015\Projects\IBANCalc\IBANCalc\Test.cs:line 23
-   at IBANCalc.CountThreader.countNumbers(Object mt) in C:\Users\Robin\Documents\Visual Studio 2015\Projects\IBANCalc\IBANCalc\Threader.cs:line 116
-   at System.Threading.ThreadHelper.ThreadStart_Context(Object state)
-   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
-   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
-   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
-   at System.Threading.ThreadHelper.ThreadStart(Object obj)
-System.IndexOutOfRangeException: Index was outside the bounds of the array.
-   at System.String.get_Chars(Int32 index)
-   at IBANCalc.Test.mTest(Int32 accountnumber) in C:\Users\Robin\Documents\Visual Studio 2015\Projects\IBANCalc\IBANCalc\Test.cs:line 23
-   at IBANCalc.CountThreader.countNumbers(Object mt) in C:\Users\Robin\Documents\Visual Studio 2015\Projects\IBANCalc\IBANCalc\Threader.cs:line 124
-   at System.Threading.ThreadHelper.ThreadStart_Context(Object state)
-   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
-   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
-   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
-   at System.Threading.ThreadHelper.ThreadStart(Object obj)
-System.IndexOutOfRangeException: Index was outside the bounds of the array.
-   at System.String.get_Chars(Int32 index)
-   at IBANCalc.Test.mTest(Int32 accountnumber) in C:\Users\Robin\Documents\Visual Studio 2015\Projects\IBANCalc\IBANCalc\Test.cs:line 23
-   at IBANCalc.CountThreader.countNumbers(Object mt) in C:\Users\Robin\Documents\Visual Studio 2015\Projects\IBANCalc\IBANCalc\Threader.cs:line 124
-   at System.Threading.ThreadHelper.ThreadStart_Context(Object state)
-   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
-   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
-   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
-   at System.Threading.ThreadHelper.ThreadStart(Object obj)
+Verwachte uitvoer:
+10
 
 Let op: bij deze test is de modulus 1. Het is niet de bedoeling dat je dit afvangt als speciaal geval, deze test dient juist om te zien of je verdeling geen gaten laat vallen.
 
 ------------------------------------
 
-9;Lijstmodus (Eigen Lock, 1 thread);Correct;0.01;100%;Dit is een test of de lijstmodus werkt
+9;Lijstmodus (Eigen Lock, 1 thread);Correct;0,00;100%;Dit is een test of de lijstmodus werkt
 Test 9 - Lijstmodus (Eigen Lock, 1 thread)
 Dit is een test of de lijstmodus werkt
 
@@ -427,7 +218,7 @@ Uitvoer:
 
 ------------------------------------
 
-10;Lijstmodus (Eigen Lock, 2 threads);Correct;0.00;100%;Dit is een test of de lijstmodus werkt
+10;Lijstmodus (Eigen Lock, 2 threads);Correct;0,01;100%;Dit is een test of de lijstmodus werkt
 Test 10 - Lijstmodus (Eigen Lock, 2 threads)
 Dit is een test of de lijstmodus werkt
 
@@ -448,43 +239,43 @@ Uitvoer:
 11 123456897
 12 123456901
 13 123457428
-14 123456978
-15 123457436
-16 123456986
-17 123457444
-18 123456994
-19 123457452
-20 123457003
-21 123457460
+14 123457436
+15 123457444
+16 123456978
+17 123457452
+18 123456986
+19 123457460
+20 123456994
+21 123457003
 22 123457011
-23 123457088
-24 123457509
-25 123457096
-26 123457517
-27 123457100
-28 123457525
-29 123457533
-30 123457541
-31 123457169
-32 123457177
-33 123457185
-34 123457193
-35 123457606
-36 123457614
-37 123457622
-38 123457258
-39 123457630
-40 123457266
-41 123457274
-42 123457282
-43 123457699
-44 123457703
-45 123457711
+23 123457509
+24 123457517
+25 123457525
+26 123457533
+27 123457088
+28 123457541
+29 123457096
+30 123457100
+31 123457606
+32 123457169
+33 123457614
+34 123457177
+35 123457622
+36 123457185
+37 123457630
+38 123457193
+39 123457699
+40 123457258
+41 123457703
+42 123457266
+43 123457711
+44 123457274
+45 123457282
 46 123457788
 
 ------------------------------------
 
-11;Lijstmodus (C#-Lock, 2 threads);Correct;0.01;100%;Dit is een test of de lijstmodus werkt
+11;Lijstmodus (C#-Lock, 2 threads);Correct;0,00;100%;Dit is een test of de lijstmodus werkt
 Test 11 - Lijstmodus (C#-Lock, 2 threads)
 Dit is een test of de lijstmodus werkt
 
@@ -493,55 +284,55 @@ Invoer:
 
 Uitvoer:
 1 123457290
-2 123456804
-3 123456812
-4 123457339
-5 123456820
-6 123457347
-7 123457355
-8 123457363
-9 123457371
-10 123456889
-11 123456897
-12 123456901
-13 123457428
-14 123457436
-15 123457444
-16 123457452
-17 123457460
-18 123456978
-19 123456986
-20 123456994
-21 123457003
-22 123457509
-23 123457011
-24 123457517
-25 123457525
-26 123457533
-27 123457541
-28 123457088
-29 123457096
-30 123457100
-31 123457606
-32 123457614
-33 123457622
-34 123457630
-35 123457169
-36 123457177
-37 123457185
-38 123457193
-39 123457699
-40 123457703
-41 123457711
-42 123457258
-43 123457266
-44 123457274
-45 123457282
-46 123457788
+2 123457339
+3 123457347
+4 123457355
+5 123457363
+6 123457371
+7 123457428
+8 123457436
+9 123457444
+10 123457452
+11 123457460
+12 123457509
+13 123457517
+14 123457525
+15 123457533
+16 123457541
+17 123457606
+18 123457614
+19 123457622
+20 123457630
+21 123457699
+22 123457703
+23 123457711
+24 123457788
+25 123456804
+26 123456812
+27 123456820
+28 123456889
+29 123456897
+30 123456901
+31 123456978
+32 123456986
+33 123456994
+34 123457003
+35 123457011
+36 123457088
+37 123457096
+38 123457100
+39 123457169
+40 123457177
+41 123457185
+42 123457193
+43 123457258
+44 123457266
+45 123457274
+46 123457282
 
 ------------------------------------
 
-12;Eerlijk delen;Error;0.89;100%;10 getallen over 3 threads verdelen (lijstmodus)
+12;Eerlijk delen;Correct;0,01;100%;10 getallen over 3 threads verdelen (lijstmodus)
 Test 12 - Eerlijk delen
 10 getallen over 3 threads verdelen (lijstmodus)
 
@@ -549,43 +340,22 @@ Invoer:
 0 0 10 1 3 1 0
 
 Uitvoer:
-(leeg)
-
-Foutmelding:
-Unhandled Exception: Unhandled Exception: 
-Unhandled Exception: System.IndexOutOfRangeException: Index was outside the bounds of the array.
-   at System.String.get_Chars(Int32 index)
-   at IBANCalc.Test.mTest(Int32 accountnumber) in C:\Users\Robin\Documents\Visual Studio 2015\Projects\IBANCalc\IBANCalc\Test.cs:line 23
-   at IBANCalc.ListThreader.listNumbers(Object mt) in C:\Users\Robin\Documents\Visual Studio 2015\Projects\IBANCalc\IBANCalc\Threader.cs:line 74
-   at System.Threading.ThreadHelper.ThreadStart_Context(Object state)
-   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
-   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
-   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
-   at System.Threading.ThreadHelper.ThreadStart(Object obj)
-System.IndexOutOfRangeException: Index was outside the bounds of the array.
-   at System.String.get_Chars(Int32 index)
-   at IBANCalc.Test.mTest(Int32 accountnumber) in C:\Users\Robin\Documents\Visual Studio 2015\Projects\IBANCalc\IBANCalc\Test.cs:line 23
-   at IBANCalc.ListThreader.listNumbers(Object mt) in C:\Users\Robin\Documents\Visual Studio 2015\Projects\IBANCalc\IBANCalc\Threader.cs:line 82
-   at System.Threading.ThreadHelper.ThreadStart_Context(Object state)
-   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
-   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
-   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
-   at System.Threading.ThreadHelper.ThreadStart(Object obj)
-System.IndexOutOfRangeException: Index was outside the bounds of the array.
-   at System.String.get_Chars(Int32 index)
-   at IBANCalc.Test.mTest(Int32 accountnumber) in C:\Users\Robin\Documents\Visual Studio 2015\Projects\IBANCalc\IBANCalc\Test.cs:line 23
-   at IBANCalc.ListThreader.listNumbers(Object mt) in C:\Users\Robin\Documents\Visual Studio 2015\Projects\IBANCalc\IBANCalc\Threader.cs:line 82
-   at System.Threading.ThreadHelper.ThreadStart_Context(Object state)
-   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
-   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
-   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
-   at System.Threading.ThreadHelper.ThreadStart(Object obj)
+1 3
+2 0
+3 4
+4 6
+5 1
+6 5
+7 7
+8 2
+9 8
+10 9
 
 Let op: bij deze test is de modulus 1. Het is niet de bedoeling dat je dit afvangt als speciaal geval, deze test dient juist om te zien of je verdeling geen gaten laat vallen.
 
 ------------------------------------
 
-13;Meer threads dan nummers;Error;0.98;100%;10 getallen over 17 threads verdelen (lijstmodus)
+13;Meer threads dan nummers;Correct;0,01;100%;10 getallen over 17 threads verdelen (lijstmodus)
 Test 13 - Meer threads dan nummers
 10 getallen over 17 threads verdelen (lijstmodus)
 
@@ -593,53 +363,22 @@ Invoer:
 0 0 10 1 17 1 0
 
 Uitvoer:
-(leeg)
-
-Foutmelding:
-Unhandled Exception: Unhandled Exception: Unhandled Exception: Unhandled Exception: 
-Unhandled Exception: 
-Unhandled Exception: System.IndexOutOfRangeException: Index was outside the bounds of the array.
-   at System.String.get_Chars(Int32 index)
-   at IBANCalc.Test.mTest(Int32 accountnumber) in C:\Users\Robin\Documents\Visual Studio 2015\Projects\IBANCalc\IBANCalc\Test.cs:line 23
-   at IBANCalc.ListThreader.listNumbers(Object mt) in C:\Users\Robin\Documents\Visual Studio 2015\Projects\IBANCalc\IBANCalc\Threader.cs:line 82
-   at System.Threading.ThreadHelper.ThreadStart_Context(Object state)
-   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
-   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
-   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
-   at System.Threading.ThreadHelper.ThreadStart(Object obj)
-System.IndexOutOfRangeException: Index was outside the bounds of the array.
-   at System.String.get_Chars(Int32 index)
-   at IBANCalc.Test.mTest(Int32 accountnumber) in C:\Users\Robin\Documents\Visual Studio 2015\Projects\IBANCalc\IBANCalc\Test.cs:line 23
-   at IBANCalc.ListThreader.listNumbers(Object mt) in C:\Users\Robin\Documents\Visual Studio 2015\Projects\IBANCalc\IBANCalc\Threader.cs:line 82
-   at System.Threading.ThreadHelper.ThreadStart_Context(Object state)
-   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
-   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
-   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
-   at System.Threading.ThreadHelper.ThreadStart(Object obj)
-System.IndexOutOfRangeException: Index was outside the bounds of the array.
-   at System.String.get_Chars(Int32 index)
-   at IBANCalc.Test.mTest(Int32 accountnumber) in C:\Users\Robin\Documents\Visual Studio 2015\Projects\IBANCalc\IBANCalc\Test.cs:line 23
-   at IBANCalc.ListThreader.listNumbers(Object mt) in C:\Users\Robin\Documents\Visual Studio 2015\Projects\IBANCalc\IBANCalc\Threader.cs:line 82
-   at System.Threading.ThreadHelper.ThreadStart_Context(Object state)
-   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
-   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
-   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
-   at System.Threading.ThreadHelper.ThreadStart(Object obj)
-System.IndexOutOfRangeException: Index was outside the bounds of the array.
-   at System.String.get_Chars(Int32 index)
-   at IBANCalc.Test.mTest(Int32 accountnumber) in C:\Users\Robin\Documents\Visual Studio 2015\Projects\IBANCalc\IBANCalc\Test.cs:line 23
-   at IBANCalc.ListThreader.listNumbers(Object mt) in C:\Users\Robin\Documents\Visual Studio 2015\Projects\IBANCalc\IBANCalc\Threader.cs:line 82
-   at System.Threading.ThreadHelper.ThreadStart_Context(Object state)
-   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
-   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
-   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
-   at System.Threading.ThreadHelper.ThreadStart(Object obj)
+1 0
+2 1
+3 2
+4 3
+5 4
+6 5
+7 6
+8 7
+9 8
+10 9
 
 Let op: bij deze test is de modulus 1. Het is niet de bedoeling dat je dit afvangt als speciaal geval, deze test dient juist om te zien of je verdeling geen gaten laat vallen.
 
 ------------------------------------
 
-14;Zoekmodus;Error;1.03;100%;Voorbeeld uit opdracht (Eigen Lock)
+14;Zoekmodus;Correct;0,01;100%;Voorbeeld uit opdracht (Eigen Lock)
 Test 14 - Zoekmodus
 Voorbeeld uit opdracht (Eigen Lock)
 
@@ -647,18 +386,16 @@ Invoer:
 0 274856170 274856190 11 4 2 c736ca9048d0967a27ec3833832f7ffb571ebd2f
 
 Uitvoer:
-(leeg)
+274856182
 
-Foutmelding:
-Unhandled Exception: System.NullReferenceException: Object reference not set to an instance of an object.
-   at IBANCalc.Threader.Start() in C:\Users\Robin\Documents\Visual Studio 2015\Projects\IBANCalc\IBANCalc\Threader.cs:line 25
-   at IBANCalc.Program.Main(String[] args) in C:\Users\Robin\Documents\Visual Studio 2015\Projects\IBANCalc\IBANCalc\Program.cs:line 46
+Verwachte uitvoer:
+274856182
 
 Deze test kijkt of de zoekmodus goed geimplementeerd is. Als het antwoord fout is check dan de SHA-hashing nog eens.
 
 ------------------------------------
 
-15;Zoekmodus;Error;0.80;100%;Voorbeeld uit opdracht (Eigen Lock)
+15;Zoekmodus;Correct;0,01;100%;Voorbeeld uit opdracht (Eigen Lock)
 Test 15 - Zoekmodus
 Voorbeeld uit opdracht (Eigen Lock)
 
@@ -666,18 +403,16 @@ Invoer:
 0 274856170 274856190 11 4 2 ba9cd915c8e359d9733edcfe9c61e5aca92afb
 
 Uitvoer:
-(leeg)
+-1
 
-Foutmelding:
-Unhandled Exception: System.NullReferenceException: Object reference not set to an instance of an object.
-   at IBANCalc.Threader.Start() in C:\Users\Robin\Documents\Visual Studio 2015\Projects\IBANCalc\IBANCalc\Threader.cs:line 25
-   at IBANCalc.Program.Main(String[] args) in C:\Users\Robin\Documents\Visual Studio 2015\Projects\IBANCalc\IBANCalc\Program.cs:line 46
+Verwachte uitvoer:
+-1
 
 Deze test kijkt of de zoekmodus goed geimplementeerd is. Deze test geeft een niet-bestaande hash, het antwoord zou -1 moeten zijn.
 
 ------------------------------------
 
-16;Zoekmodus;Error;0.85;100%;Strikzoekopdracht
+16;Zoekmodus;Correct;0,01;100%;Strikzoekopdracht
 Test 16 - Zoekmodus
 Strikzoekopdracht
 
@@ -685,18 +420,16 @@ Invoer:
 0 274856170 274856190 12 4 2 c736ca9048d0967a27ec3833832f7ffb571ebd2f
 
 Uitvoer:
-(leeg)
+-1
 
-Foutmelding:
-Unhandled Exception: System.NullReferenceException: Object reference not set to an instance of an object.
-   at IBANCalc.Threader.Start() in C:\Users\Robin\Documents\Visual Studio 2015\Projects\IBANCalc\IBANCalc\Threader.cs:line 25
-   at IBANCalc.Program.Main(String[] args) in C:\Users\Robin\Documents\Visual Studio 2015\Projects\IBANCalc\IBANCalc\Program.cs:line 46
+Verwachte uitvoer:
+-1
 
 Bij deze testcase is er wel een rekeningnummer met het gewenste getal, maar dit rekeningnummer voldoet niet aan de m-proef!
 
 ------------------------------------
 
-17;Zoekmodus;Error;0.80;100%;Terminatie
+17;Zoekmodus;Correct;0,01;100%;Terminatie
 Test 17 - Zoekmodus
 Terminatie
 
@@ -704,18 +437,16 @@ Invoer:
 0 274856182 374856190 11 4 2 c736ca9048d0967a27ec3833832f7ffb571ebd2f
 
 Uitvoer:
-(leeg)
+274856182
 
-Foutmelding:
-Unhandled Exception: System.NullReferenceException: Object reference not set to an instance of an object.
-   at IBANCalc.Threader.Start() in C:\Users\Robin\Documents\Visual Studio 2015\Projects\IBANCalc\IBANCalc\Threader.cs:line 25
-   at IBANCalc.Program.Main(String[] args) in C:\Users\Robin\Documents\Visual Studio 2015\Projects\IBANCalc\IBANCalc\Program.cs:line 46
+Verwachte uitvoer:
+274856182
 
 Deze test kijkt of de terminatiemodus goed werkt. Een TIMELIMIT hier betekent waarschijnlijk dat de terminatie bij het zoeken niet goed werkt. Dit kan ook een false positive zijn (we gaan er bij deze test van uit dat je de nummers van laag naar hoog bekijkt), als je zeker weet dat je terminatie goed werkt kun je deze test negeren.
 
 ------------------------------------
 
-18;1 thread (Eigen Lock, 5 runs);Error;0.86;100%;Baseline: 5 runs met 1 thread.
+18;1 thread (Eigen Lock, 5 runs);Correct;2,32;100%;Baseline: 5 runs met 1 thread.
 Test 18 - 1 thread (Eigen Lock, 5 runs)
 Baseline: 5 runs met 1 thread.
 
@@ -723,32 +454,25 @@ Invoer:
 0 2824374 25823728 24 1 0 0
 
 Uitvoer:
-(leeg)
+958317
 
-Foutmelding:
-Unhandled Exception: System.IndexOutOfRangeException: Index was outside the bounds of the array.
-   at System.String.get_Chars(Int32 index)
-   at IBANCalc.Test.mTest(Int32 accountnumber) in C:\Users\Robin\Documents\Visual Studio 2015\Projects\IBANCalc\IBANCalc\Test.cs:line 23
-   at IBANCalc.CountThreader.countNumbers(Object mt) in C:\Users\Robin\Documents\Visual Studio 2015\Projects\IBANCalc\IBANCalc\Threader.cs:line 124
-   at System.Threading.ThreadHelper.ThreadStart_Context(Object state)
-   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
-   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
-   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
-   at System.Threading.ThreadHelper.ThreadStart(Object obj)
+Verwachte uitvoer:
+958317
 
 ------------------------------------
 
-19;Versnellingstest (Eigen Lock);Incorrect;-;-;Is je programma sneller met meer threads?
+19;Versnellingstest (Eigen Lock);Correct;-;-;Is je programma sneller met meer threads?
 Test 19 - Versnellingstest (Eigen Lock)
 Is je programma sneller met meer threads? Met deze test kijken we of je programma ook echt sneller gaat lopen als we meer threads gebruiken.
 
-Deze test kan niet beoordeeld worden als de voorafgaande tests niet zijn geslaagd.
+Versnelling 1 naar 2 threads: 200% (moet minstens 125% zijn)
+Versnelling 2 naar 4 threads: 168% (moet minstens 110% zijn)
 
 Deze test vergelijkt de snelheid van je programma op dezelfde invoer met een verschillend aantal cores. Dit werkt alleen correct als je computer genoeg 'echte' (niet virtuele) cores heeft. Als de versnelling niet hoog genoeg is, kan dit duiden op te agressieve locking of dat je programma niet parallel werkt. Let op dat het resultaat van deze test sterk afhangt van de gebruikte computer, deze test is dus alleen ter indicatie.
 
 ------------------------------------
 
-20;2 threads (C#-Lock, 5 runs);Error;0.86;100%;C#-Lock: 2 threads (gemiddelde 5 runs)
+20;2 threads (C#-Lock, 5 runs);Correct;1,16;196%;C#-Lock: 2 threads (gemiddelde 5 runs)
 Test 20 - 2 threads (C#-Lock, 5 runs)
 C#-Lock: 2 threads (gemiddelde 5 runs)
 
@@ -756,32 +480,14 @@ Invoer:
 1 2824374 25823728 24 2 0 0
 
 Uitvoer:
-(leeg)
+958317
 
-Foutmelding:
-Unhandled Exception: 
-Unhandled Exception: System.IndexOutOfRangeException: Index was outside the bounds of the array.
-   at System.String.get_Chars(Int32 index)
-   at IBANCalc.Test.mTest(Int32 accountnumber) in C:\Users\Robin\Documents\Visual Studio 2015\Projects\IBANCalc\IBANCalc\Test.cs:line 23
-   at IBANCalc.CountThreader.countNumbers(Object mt) in C:\Users\Robin\Documents\Visual Studio 2015\Projects\IBANCalc\IBANCalc\Threader.cs:line 124
-   at System.Threading.ThreadHelper.ThreadStart_Context(Object state)
-   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
-   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
-   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
-   at System.Threading.ThreadHelper.ThreadStart(Object obj)
-System.IndexOutOfRangeException: Index was outside the bounds of the array.
-   at System.String.get_Chars(Int32 index)
-   at IBANCalc.Test.mTest(Int32 accountnumber) in C:\Users\Robin\Documents\Visual Studio 2015\Projects\IBANCalc\IBANCalc\Test.cs:line 23
-   at IBANCalc.CountThreader.countNumbers(Object mt) in C:\Users\Robin\Documents\Visual Studio 2015\Projects\IBANCalc\IBANCalc\Threader.cs:line 124
-   at System.Threading.ThreadHelper.ThreadStart_Context(Object state)
-   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
-   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
-   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
-   at System.Threading.ThreadHelper.ThreadStart(Object obj)
+Verwachte uitvoer:
+958317
 
 ------------------------------------
 
-21;4 threads (C#-Lock, 5 runs);Error;0.88;100%;C#-Lock: 4 threads (gemiddelde 5 runs)
+21;4 threads (C#-Lock, 5 runs);Correct;0,68;367%;C#-Lock: 4 threads (gemiddelde 5 runs)
 Test 21 - 4 threads (C#-Lock, 5 runs)
 C#-Lock: 4 threads (gemiddelde 5 runs)
 
@@ -789,50 +495,14 @@ Invoer:
 1 2824374 25823728 24 4 0 0
 
 Uitvoer:
-(leeg)
+958317
 
-Foutmelding:
-Unhandled Exception: Unhandled Exception: Unhandled Exception: 
-Unhandled Exception: System.IndexOutOfRangeException: Index was outside the bounds of the array.
-   at System.String.get_Chars(Int32 index)
-   at IBANCalc.Test.mTest(Int32 accountnumber) in C:\Users\Robin\Documents\Visual Studio 2015\Projects\IBANCalc\IBANCalc\Test.cs:line 23
-   at IBANCalc.CountThreader.countNumbers(Object mt) in C:\Users\Robin\Documents\Visual Studio 2015\Projects\IBANCalc\IBANCalc\Threader.cs:line 116
-   at System.Threading.ThreadHelper.ThreadStart_Context(Object state)
-   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
-   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
-   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
-   at System.Threading.ThreadHelper.ThreadStart(Object obj)
-System.IndexOutOfRangeException: Index was outside the bounds of the array.
-   at System.String.get_Chars(Int32 index)
-   at IBANCalc.Test.mTest(Int32 accountnumber) in C:\Users\Robin\Documents\Visual Studio 2015\Projects\IBANCalc\IBANCalc\Test.cs:line 23
-   at IBANCalc.CountThreader.countNumbers(Object mt) in C:\Users\Robin\Documents\Visual Studio 2015\Projects\IBANCalc\IBANCalc\Threader.cs:line 124
-   at System.Threading.ThreadHelper.ThreadStart_Context(Object state)
-   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
-   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
-   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
-   at System.Threading.ThreadHelper.ThreadStart(Object obj)
-System.IndexOutOfRangeException: Index was outside the bounds of the array.
-   at System.String.get_Chars(Int32 index)
-   at IBANCalc.Test.mTest(Int32 accountnumber) in C:\Users\Robin\Documents\Visual Studio 2015\Projects\IBANCalc\IBANCalc\Test.cs:line 23
-   at IBANCalc.CountThreader.countNumbers(Object mt) in C:\Users\Robin\Documents\Visual Studio 2015\Projects\IBANCalc\IBANCalc\Threader.cs:line 124
-   at System.Threading.ThreadHelper.ThreadStart_Context(Object state)
-   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
-   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
-   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
-   at System.Threading.ThreadHelper.ThreadStart(Object obj)
-System.IndexOutOfRangeException: Index was outside the bounds of the array.
-   at System.String.get_Chars(Int32 index)
-   at IBANCalc.Test.mTest(Int32 accountnumber) in C:\Users\Robin\Documents\Visual Studio 2015\Projects\IBANCalc\IBANCalc\Test.cs:line 23
-   at IBANCalc.CountThreader.countNumbers(Object mt) in C:\Users\Robin\Documents\Visual Studio 2015\Projects\IBANCalc\IBANCalc\Threader.cs:line 124
-   at System.Threading.ThreadHelper.ThreadStart_Context(Object state)
-   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
-   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
-   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
-   at System.Threading.ThreadHelper.ThreadStart(Object obj)
+Verwachte uitvoer:
+958317
 
 ------------------------------------
 
-22;1 thread (C#-Lock, 5 runs);Error;0.80;100%;Baseline: 5 runs met 1 thread.
+22;1 thread (C#-Lock, 5 runs);Correct;2,31;100%;Baseline: 5 runs met 1 thread.
 Test 22 - 1 thread (C#-Lock, 5 runs)
 Baseline: 5 runs met 1 thread.
 
@@ -840,32 +510,25 @@ Invoer:
 1 2824374 25823728 24 1 0 0
 
 Uitvoer:
-(leeg)
+958317
 
-Foutmelding:
-Unhandled Exception: System.IndexOutOfRangeException: Index was outside the bounds of the array.
-   at System.String.get_Chars(Int32 index)
-   at IBANCalc.Test.mTest(Int32 accountnumber) in C:\Users\Robin\Documents\Visual Studio 2015\Projects\IBANCalc\IBANCalc\Test.cs:line 23
-   at IBANCalc.CountThreader.countNumbers(Object mt) in C:\Users\Robin\Documents\Visual Studio 2015\Projects\IBANCalc\IBANCalc\Threader.cs:line 124
-   at System.Threading.ThreadHelper.ThreadStart_Context(Object state)
-   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
-   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
-   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
-   at System.Threading.ThreadHelper.ThreadStart(Object obj)
+Verwachte uitvoer:
+958317
 
 ------------------------------------
 
-23;Versnellingstest (C#-Lock);Incorrect;-;-;Is je programma sneller met meer threads?
+23;Versnellingstest (C#-Lock);Correct;-;-;Is je programma sneller met meer threads?
 Test 23 - Versnellingstest (C#-Lock)
 Is je programma sneller met meer threads? Met deze test kijken we of je programma ook echt sneller gaat lopen als we meer threads gebruiken.
 
-Deze test kan niet beoordeeld worden als de voorafgaande tests niet zijn geslaagd.
+Versnelling 1 naar 2 threads: 199% (moet minstens 125% zijn)
+Versnelling 2 naar 4 threads: 171% (moet minstens 110% zijn)
 
 Deze test vergelijkt de snelheid van je programma op dezelfde invoer met een verschillend aantal cores. Dit werkt alleen correct als je computer genoeg 'echte' (niet virtuele) cores heeft. Als de versnelling niet hoog genoeg is, kan dit duiden op te agressieve locking of dat je programma niet parallel werkt. Let op dat het resultaat van deze test sterk afhangt van de gebruikte computer, deze test is dus alleen ter indicatie.
 
 ------------------------------------
 
-24;Zoekmodus;Error;0.89;100%;Voorbeeld uit opdracht (C#-Lock)
+24;Zoekmodus;Correct;0,01;100%;Voorbeeld uit opdracht (C#-Lock)
 Test 24 - Zoekmodus
 Voorbeeld uit opdracht (C#-Lock)
 
@@ -873,18 +536,16 @@ Invoer:
 1 274856170 274856190 11 4 2 c736ca9048d0967a27ec3833832f7ffb571ebd2f
 
 Uitvoer:
-(leeg)
+274856182
 
-Foutmelding:
-Unhandled Exception: System.NullReferenceException: Object reference not set to an instance of an object.
-   at IBANCalc.Threader.Start() in C:\Users\Robin\Documents\Visual Studio 2015\Projects\IBANCalc\IBANCalc\Threader.cs:line 25
-   at IBANCalc.Program.Main(String[] args) in C:\Users\Robin\Documents\Visual Studio 2015\Projects\IBANCalc\IBANCalc\Program.cs:line 46
+Verwachte uitvoer:
+274856182
 
 Deze test kijkt of de zoekmodus goed geimplementeerd is. Als het antwoord fout is check dan de SHA-hashing nog eens.
 
 ------------------------------------
 
-25;Zoekmodus;Error;0.76;100%;Groter zoekbereik
+25;Zoekmodus;Correct;0,85;347%;Groter zoekbereik
 Test 25 - Zoekmodus
 Groter zoekbereik
 
@@ -892,85 +553,183 @@ Invoer:
 1 261756170 274896190 47 4 2 a8428d9c87323e977978a67ee48827ca154bd84b
 
 Uitvoer:
-(leeg)
+274886190
 
-Foutmelding:
-Unhandled Exception: System.NullReferenceException: Object reference not set to an instance of an object.
-   at IBANCalc.Threader.Start() in C:\Users\Robin\Documents\Visual Studio 2015\Projects\IBANCalc\IBANCalc\Threader.cs:line 25
-   at IBANCalc.Program.Main(String[] args) in C:\Users\Robin\Documents\Visual Studio 2015\Projects\IBANCalc\IBANCalc\Program.cs:line 46
+Verwachte uitvoer:
+274886190
 
 Deze test kijkt of de zoekmodus goed geimplementeerd is. Als het antwoord fout is check dan de SHA-hashing nog eens.
 
 ------------------------------------
 
-26;Zoekmodus: 2 threads;Afgebroken;0.00;0%;Zoekmodus: 2 threads (gemiddelde 5 runs)
+26;Zoekmodus: 2 threads;Correct;0,71;186%;Zoekmodus: 2 threads (gemiddelde 5 runs)
 Test 26 - Zoekmodus: 2 threads
 Zoekmodus: 2 threads (gemiddelde 5 runs)
 
 Invoer:
-(niet gestart)
+1 261756170 262035744 1 2 2 356a192b7913b04c54574d18c28d46e6395428ab
 
 Uitvoer:
-(leeg)
+-1
+
+Verwachte uitvoer:
+-1
 
 ------------------------------------
 
-27;Zoekmodus: 4 threads;Afgebroken;0.00;0%;Zoekmodus: 4 threads (gemiddelde 5 runs)
+27;Zoekmodus: 4 threads;Correct;0,47;341%;Zoekmodus: 4 threads (gemiddelde 5 runs)
 Test 27 - Zoekmodus: 4 threads
 Zoekmodus: 4 threads (gemiddelde 5 runs)
 
 Invoer:
-(niet gestart)
+1 261756170 262035744 1 4 2 356a192b7913b04c54574d18c28d46e6395428ab
 
 Uitvoer:
-(leeg)
+-1
+
+Verwachte uitvoer:
+-1
 
 ------------------------------------
 
-28;Zoekmodus: 1 thread;Afgebroken;0.00;0%;Baseline: 5 runs met 1 thread.
+28;Zoekmodus: 1 thread;Correct;1,29;100%;Baseline: 5 runs met 1 thread.
 Test 28 - Zoekmodus: 1 thread
 Baseline: 5 runs met 1 thread.
 
 Invoer:
-(niet gestart)
+1 261756170 262035744 1 1 2 356a192b7913b04c54574d18c28d46e6395428ab
 
 Uitvoer:
-(leeg)
+-1
+
+Verwachte uitvoer:
+-1
 
 ------------------------------------
 
-29;Versnellingstest (Zoekmodus);Incorrect;-;-;Is je programma sneller met meer threads?
+29;Versnellingstest (Zoekmodus);Correct;-;-;Is je programma sneller met meer threads?
 Test 29 - Versnellingstest (Zoekmodus)
 Is je programma sneller met meer threads? Met deze test kijken we of je programma ook echt sneller gaat lopen als we meer threads gebruiken.
 
-Deze test kan niet beoordeeld worden als de voorafgaande tests niet zijn geslaagd.
+Versnelling 1 naar 2 threads: 182% (moet minstens 125% zijn)
+Versnelling 2 naar 4 threads: 151% (moet minstens 110% zijn)
 
 Deze test vergelijkt de snelheid van je programma op dezelfde invoer met een verschillend aantal cores. Dit werkt alleen correct als je computer genoeg 'echte' (niet virtuele) cores heeft. Als de versnelling niet hoog genoeg is, kan dit duiden op te agressieve locking of dat je programma niet parallel werkt. Let op dat het resultaat van deze test sterk afhangt van de gebruikte computer, deze test is dus alleen ter indicatie.
 
 ------------------------------------
 
-30;Lijstmodus (Eigen Lock, 8 threads);Afgebroken;0.00;0%;Dit is een test of de lijstmodus werkt
+30;Lijstmodus (Eigen Lock, 8 threads);Correct;0,01;100%;Dit is een test of de lijstmodus werkt
 Test 30 - Lijstmodus (Eigen Lock, 8 threads)
 Dit is een test of de lijstmodus werkt
 
 Invoer:
-(niet gestart)
+0 123456789 123457789 21 8 1 0
 
 Uitvoer:
-(leeg)
+1 123456804
+2 123456978
+3 123456812
+4 123456986
+5 123456820
+6 123456994
+7 123457003
+8 123457011
+9 123456889
+10 123456897
+11 123456901
+12 123457088
+13 123457096
+14 123457100
+15 123457169
+16 123457177
+17 123457185
+18 123457193
+19 123457258
+20 123457266
+21 123457274
+22 123457282
+23 123457290
+24 123457339
+25 123457347
+26 123457355
+27 123457363
+28 123457371
+29 123457428
+30 123457436
+31 123457444
+32 123457452
+33 123457460
+34 123457509
+35 123457517
+36 123457525
+37 123457533
+38 123457541
+39 123457606
+40 123457614
+41 123457622
+42 123457630
+43 123457699
+44 123457703
+45 123457711
+46 123457788
 
 ------------------------------------
 
-31;Lijstmodus (C#-Lock, 8 threads);Afgebroken;0.00;0%;Dit is een test of de lijstmodus werkt
+31;Lijstmodus (C#-Lock, 8 threads);Correct;0,00;100%;Dit is een test of de lijstmodus werkt
 Test 31 - Lijstmodus (C#-Lock, 8 threads)
 Dit is een test of de lijstmodus werkt
 
 Invoer:
-(niet gestart)
+1 123456789 123457789 21 8 1 0
 
 Uitvoer:
-(leeg)
+1 123456804
+2 123456978
+3 123457088
+4 123457169
+5 123457177
+6 123457185
+7 123457193
+8 123457096
+9 123457100
+10 123457258
+11 123457266
+12 123457274
+13 123457282
+14 123457290
+15 123457339
+16 123457347
+17 123457355
+18 123457363
+19 123457371
+20 123456812
+21 123456820
+22 123456889
+23 123456897
+24 123456901
+25 123456986
+26 123456994
+27 123457003
+28 123457011
+29 123457428
+30 123457436
+31 123457444
+32 123457452
+33 123457460
+34 123457509
+35 123457517
+36 123457525
+37 123457533
+38 123457541
+39 123457606
+40 123457614
+41 123457622
+42 123457630
+43 123457699
+44 123457703
+45 123457711
+46 123457788
 
 Microsoft Windows NT 6.2.9200.0 (x64)
 .NET version: 4.0.30319.42000
-2 physical core(s), 4 virtual core(s) (hyperthreading), 1 processor(s)
+4 physical core(s), 4 virtual core(s) (hyperthreading), 1 processor(s)
