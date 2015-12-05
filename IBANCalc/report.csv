@@ -1,0 +1,1066 @@
+Testcase;Status;Tijd;CPU;Omschrijving
+Single Threaded;Afgebroken;3.10;100%;Werkt je programma goed met maar 1 thread?
+Single Threaded;Afgebroken;7.58;100%;En met een grotere testcase?
+2 threads (Eigen Lock, 5 runs);Afgebroken;7.59;100%;Opwarmen: 2 threads (gemiddelde 5 runs)
+4 threads (Eigen Lock, 5 runs);Afgebroken;7.57;100%;Opwarmen: 4 threads (gemiddelde 5 runs)
+16 threads (Eigen Lock, 1 run);Afgebroken;1.10;100%;Echt lekker op gang: 16 threads
+7 threads (Eigen Lock, 3 runs);Afgebroken;0.00;0%;Nu geen saaie 2-macht: 7 threads
+Eerlijk delen;Afgebroken;0.00;0%;10 getallen over 3 threads verdelen
+Meer threads dan nummers;Afgebroken;0.00;0%;10 getallen over 17 threads verdelen
+Lijstmodus (Eigen Lock, 1 thread);Afgebroken;0.00;0%;Dit is een test of de lijstmodus werkt
+Lijstmodus (Eigen Lock, 2 threads);Afgebroken;0.00;0%;Dit is een test of de lijstmodus werkt
+Lijstmodus (C#-Lock, 2 threads);Afgebroken;0.00;0%;Dit is een test of de lijstmodus werkt
+Eerlijk delen;Afgebroken;0.00;0%;10 getallen over 3 threads verdelen (lijstmodus)
+Meer threads dan nummers;Afgebroken;0.00;0%;10 getallen over 17 threads verdelen (lijstmodus)
+Zoekmodus;Afgebroken;0.00;0%;Voorbeeld uit opdracht (Eigen Lock)
+Zoekmodus;Afgebroken;0.00;0%;Voorbeeld uit opdracht (Eigen Lock)
+Zoekmodus;Afgebroken;0.00;0%;Strikzoekopdracht
+Zoekmodus;Afgebroken;0.00;0%;Terminatie
+1 thread (Eigen Lock, 5 runs);Afgebroken;0.00;0%;Baseline: 5 runs met 1 thread.
+Versnellingstest (Eigen Lock);Incorrect;-;-;Is je programma sneller met meer threads?
+2 threads (C#-Lock, 5 runs);Afgebroken;0.00;0%;C#-Lock: 2 threads (gemiddelde 5 runs)
+4 threads (C#-Lock, 5 runs);Afgebroken;0.00;0%;C#-Lock: 4 threads (gemiddelde 5 runs)
+1 thread (C#-Lock, 5 runs);Afgebroken;0.00;0%;Baseline: 5 runs met 1 thread.
+Versnellingstest (C#-Lock);Incorrect;-;-;Is je programma sneller met meer threads?
+Zoekmodus;Afgebroken;0.00;0%;Voorbeeld uit opdracht (C#-Lock)
+Zoekmodus;Afgebroken;0.00;0%;Groter zoekbereik
+Zoekmodus: 2 threads;Afgebroken;0.00;0%;Zoekmodus: 2 threads (gemiddelde 5 runs)
+Zoekmodus: 4 threads;Afgebroken;0.00;0%;Zoekmodus: 4 threads (gemiddelde 5 runs)
+Zoekmodus: 1 thread;Afgebroken;0.00;0%;Baseline: 5 runs met 1 thread.
+Versnellingstest (Zoekmodus);Incorrect;-;-;Is je programma sneller met meer threads?
+Lijstmodus (Eigen Lock, 8 threads);Afgebroken;0.00;0%;Dit is een test of de lijstmodus werkt
+Lijstmodus (C#-Lock, 8 threads);Afgebroken;0.00;0%;Dit is een test of de lijstmodus werkt
+
+------------------------------------
+
+1;Single Threaded;Afgebroken;3.10;100%;Werkt je programma goed met maar 1 thread?
+Test 1 - Single Threaded
+Werkt je programma goed met maar 1 thread?
+
+Invoer:
+0 139483 928234 11 1 0 0
+
+Uitvoer:
+Thread 0 evaluates from 139483 to 928234 (total domain: 788751).
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+
+Als het antwoord verkeerd is is er waarschijnlijk iets mis met je BSN-test.
+
+------------------------------------
+
+2;Single Threaded;Afgebroken;7.58;100%;En met een grotere testcase?
+Test 2 - Single Threaded
+En met een grotere testcase?
+
+Invoer:
+0 2824374 25823728 24 1 0 0
+
+Uitvoer:
+Thread 0 evaluates from 2824374 to 25823728 (total domain: 22999354).
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+
+Als het antwoord verkeerd is is er waarschijnlijk iets mis met je BSN-test.
+
+------------------------------------
+
+3;2 threads (Eigen Lock, 5 runs);Afgebroken;7.59;100%;Opwarmen: 2 threads (gemiddelde 5 runs)
+Test 3 - 2 threads (Eigen Lock, 5 runs)
+Opwarmen: 2 threads (gemiddelde 5 runs)
+
+Invoer:
+0 2824374 25823728 24 2 0 0
+
+Uitvoer:
+Thread 0 evaluates from 2824374 to 14324051 (total domain: 11499677).
+Thread 1 evaluates from 14324051 to 25823728 (total domain: 11499677).
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+
+------------------------------------
+
+4;4 threads (Eigen Lock, 5 runs);Afgebroken;7.57;100%;Opwarmen: 4 threads (gemiddelde 5 runs)
+Test 4 - 4 threads (Eigen Lock, 5 runs)
+Opwarmen: 4 threads (gemiddelde 5 runs)
+
+Invoer:
+0 2824374 25823728 24 4 0 0
+
+Uitvoer:
+Thread 0 evaluates from 2824374 to 8574212 (total domain: 5749838).
+Thread 2 evaluates from 14324051 to 20073889 (total domain: 5749838).
+Thread 1 evaluates from 8574212 to 14324051 (total domain: 5749839).
+Thread 3 evaluates from 20073889 to 25823728 (total domain: 5749839).
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+
+------------------------------------
+
+5;16 threads (Eigen Lock, 1 run);Afgebroken;1.10;100%;Echt lekker op gang: 16 threads
+Test 5 - 16 threads (Eigen Lock, 1 run)
+Echt lekker op gang: 16 threads
+
+Invoer:
+0 2824374 25823728 24 16 0 0
+
+Uitvoer:
+Thread 0 evaluates from 2824374 to 4261833 (total domain: 1437459).
+Thread 1 evaluates from 4261833 to 5699293 (total domain: 1437460).
+Thread 2 evaluates from 5699293 to 7136752 (total domain: 1437459).
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+Invalid Accountnumber length.
+
+------------------------------------
+
+6;7 threads (Eigen Lock, 3 runs);Afgebroken;0.00;0%;Nu geen saaie 2-macht: 7 threads
+Test 6 - 7 threads (Eigen Lock, 3 runs)
+Nu geen saaie 2-macht: 7 threads
+
+Invoer:
+(niet gestart)
+
+Uitvoer:
+(leeg)
+
+------------------------------------
+
+7;Eerlijk delen;Afgebroken;0.00;0%;10 getallen over 3 threads verdelen
+Test 7 - Eerlijk delen
+10 getallen over 3 threads verdelen
+
+Invoer:
+(niet gestart)
+
+Uitvoer:
+(leeg)
+
+Let op: bij deze test is de modulus 1. Het is niet de bedoeling dat je dit afvangt als speciaal geval, deze test dient juist om te zien of je verdeling geen gaten laat vallen.
+
+------------------------------------
+
+8;Meer threads dan nummers;Afgebroken;0.00;0%;10 getallen over 17 threads verdelen
+Test 8 - Meer threads dan nummers
+10 getallen over 17 threads verdelen
+
+Invoer:
+(niet gestart)
+
+Uitvoer:
+(leeg)
+
+Let op: bij deze test is de modulus 1. Het is niet de bedoeling dat je dit afvangt als speciaal geval, deze test dient juist om te zien of je verdeling geen gaten laat vallen.
+
+------------------------------------
+
+9;Lijstmodus (Eigen Lock, 1 thread);Afgebroken;0.00;0%;Dit is een test of de lijstmodus werkt
+Test 9 - Lijstmodus (Eigen Lock, 1 thread)
+Dit is een test of de lijstmodus werkt
+
+Invoer:
+(niet gestart)
+
+Uitvoer:
+(leeg)
+
+------------------------------------
+
+10;Lijstmodus (Eigen Lock, 2 threads);Afgebroken;0.00;0%;Dit is een test of de lijstmodus werkt
+Test 10 - Lijstmodus (Eigen Lock, 2 threads)
+Dit is een test of de lijstmodus werkt
+
+Invoer:
+(niet gestart)
+
+Uitvoer:
+(leeg)
+
+------------------------------------
+
+11;Lijstmodus (C#-Lock, 2 threads);Afgebroken;0.00;0%;Dit is een test of de lijstmodus werkt
+Test 11 - Lijstmodus (C#-Lock, 2 threads)
+Dit is een test of de lijstmodus werkt
+
+Invoer:
+(niet gestart)
+
+Uitvoer:
+(leeg)
+
+------------------------------------
+
+12;Eerlijk delen;Afgebroken;0.00;0%;10 getallen over 3 threads verdelen (lijstmodus)
+Test 12 - Eerlijk delen
+10 getallen over 3 threads verdelen (lijstmodus)
+
+Invoer:
+(niet gestart)
+
+Uitvoer:
+(leeg)
+
+Let op: bij deze test is de modulus 1. Het is niet de bedoeling dat je dit afvangt als speciaal geval, deze test dient juist om te zien of je verdeling geen gaten laat vallen.
+
+------------------------------------
+
+13;Meer threads dan nummers;Afgebroken;0.00;0%;10 getallen over 17 threads verdelen (lijstmodus)
+Test 13 - Meer threads dan nummers
+10 getallen over 17 threads verdelen (lijstmodus)
+
+Invoer:
+(niet gestart)
+
+Uitvoer:
+(leeg)
+
+Let op: bij deze test is de modulus 1. Het is niet de bedoeling dat je dit afvangt als speciaal geval, deze test dient juist om te zien of je verdeling geen gaten laat vallen.
+
+------------------------------------
+
+14;Zoekmodus;Afgebroken;0.00;0%;Voorbeeld uit opdracht (Eigen Lock)
+Test 14 - Zoekmodus
+Voorbeeld uit opdracht (Eigen Lock)
+
+Invoer:
+(niet gestart)
+
+Uitvoer:
+(leeg)
+
+Deze test kijkt of de zoekmodus goed geimplementeerd is. Als het antwoord fout is check dan de SHA-hashing nog eens.
+
+------------------------------------
+
+15;Zoekmodus;Afgebroken;0.00;0%;Voorbeeld uit opdracht (Eigen Lock)
+Test 15 - Zoekmodus
+Voorbeeld uit opdracht (Eigen Lock)
+
+Invoer:
+(niet gestart)
+
+Uitvoer:
+(leeg)
+
+Deze test kijkt of de zoekmodus goed geimplementeerd is. Deze test geeft een niet-bestaande hash, het antwoord zou -1 moeten zijn.
+
+------------------------------------
+
+16;Zoekmodus;Afgebroken;0.00;0%;Strikzoekopdracht
+Test 16 - Zoekmodus
+Strikzoekopdracht
+
+Invoer:
+(niet gestart)
+
+Uitvoer:
+(leeg)
+
+Bij deze testcase is er wel een rekeningnummer met het gewenste getal, maar dit rekeningnummer voldoet niet aan de m-proef!
+
+------------------------------------
+
+17;Zoekmodus;Afgebroken;0.00;0%;Terminatie
+Test 17 - Zoekmodus
+Terminatie
+
+Invoer:
+(niet gestart)
+
+Uitvoer:
+(leeg)
+
+Deze test kijkt of de terminatiemodus goed werkt. Een TIMELIMIT hier betekent waarschijnlijk dat de terminatie bij het zoeken niet goed werkt. Dit kan ook een false positive zijn (we gaan er bij deze test van uit dat je de nummers van laag naar hoog bekijkt), als je zeker weet dat je terminatie goed werkt kun je deze test negeren.
+
+------------------------------------
+
+18;1 thread (Eigen Lock, 5 runs);Afgebroken;0.00;0%;Baseline: 5 runs met 1 thread.
+Test 18 - 1 thread (Eigen Lock, 5 runs)
+Baseline: 5 runs met 1 thread.
+
+Invoer:
+(niet gestart)
+
+Uitvoer:
+(leeg)
+
+------------------------------------
+
+19;Versnellingstest (Eigen Lock);Incorrect;-;-;Is je programma sneller met meer threads?
+Test 19 - Versnellingstest (Eigen Lock)
+Is je programma sneller met meer threads? Met deze test kijken we of je programma ook echt sneller gaat lopen als we meer threads gebruiken.
+
+Deze test kan niet beoordeeld worden als de voorafgaande tests niet zijn geslaagd.
+
+Deze test vergelijkt de snelheid van je programma op dezelfde invoer met een verschillend aantal cores. Dit werkt alleen correct als je computer genoeg 'echte' (niet virtuele) cores heeft. Als de versnelling niet hoog genoeg is, kan dit duiden op te agressieve locking of dat je programma niet parallel werkt. Let op dat het resultaat van deze test sterk afhangt van de gebruikte computer, deze test is dus alleen ter indicatie.
+
+------------------------------------
+
+20;2 threads (C#-Lock, 5 runs);Afgebroken;0.00;0%;C#-Lock: 2 threads (gemiddelde 5 runs)
+Test 20 - 2 threads (C#-Lock, 5 runs)
+C#-Lock: 2 threads (gemiddelde 5 runs)
+
+Invoer:
+(niet gestart)
+
+Uitvoer:
+(leeg)
+
+------------------------------------
+
+21;4 threads (C#-Lock, 5 runs);Afgebroken;0.00;0%;C#-Lock: 4 threads (gemiddelde 5 runs)
+Test 21 - 4 threads (C#-Lock, 5 runs)
+C#-Lock: 4 threads (gemiddelde 5 runs)
+
+Invoer:
+(niet gestart)
+
+Uitvoer:
+(leeg)
+
+------------------------------------
+
+22;1 thread (C#-Lock, 5 runs);Afgebroken;0.00;0%;Baseline: 5 runs met 1 thread.
+Test 22 - 1 thread (C#-Lock, 5 runs)
+Baseline: 5 runs met 1 thread.
+
+Invoer:
+(niet gestart)
+
+Uitvoer:
+(leeg)
+
+------------------------------------
+
+23;Versnellingstest (C#-Lock);Incorrect;-;-;Is je programma sneller met meer threads?
+Test 23 - Versnellingstest (C#-Lock)
+Is je programma sneller met meer threads? Met deze test kijken we of je programma ook echt sneller gaat lopen als we meer threads gebruiken.
+
+Deze test kan niet beoordeeld worden als de voorafgaande tests niet zijn geslaagd.
+
+Deze test vergelijkt de snelheid van je programma op dezelfde invoer met een verschillend aantal cores. Dit werkt alleen correct als je computer genoeg 'echte' (niet virtuele) cores heeft. Als de versnelling niet hoog genoeg is, kan dit duiden op te agressieve locking of dat je programma niet parallel werkt. Let op dat het resultaat van deze test sterk afhangt van de gebruikte computer, deze test is dus alleen ter indicatie.
+
+------------------------------------
+
+24;Zoekmodus;Afgebroken;0.00;0%;Voorbeeld uit opdracht (C#-Lock)
+Test 24 - Zoekmodus
+Voorbeeld uit opdracht (C#-Lock)
+
+Invoer:
+(niet gestart)
+
+Uitvoer:
+(leeg)
+
+Deze test kijkt of de zoekmodus goed geimplementeerd is. Als het antwoord fout is check dan de SHA-hashing nog eens.
+
+------------------------------------
+
+25;Zoekmodus;Afgebroken;0.00;0%;Groter zoekbereik
+Test 25 - Zoekmodus
+Groter zoekbereik
+
+Invoer:
+(niet gestart)
+
+Uitvoer:
+(leeg)
+
+Deze test kijkt of de zoekmodus goed geimplementeerd is. Als het antwoord fout is check dan de SHA-hashing nog eens.
+
+------------------------------------
+
+26;Zoekmodus: 2 threads;Afgebroken;0.00;0%;Zoekmodus: 2 threads (gemiddelde 5 runs)
+Test 26 - Zoekmodus: 2 threads
+Zoekmodus: 2 threads (gemiddelde 5 runs)
+
+Invoer:
+(niet gestart)
+
+Uitvoer:
+(leeg)
+
+------------------------------------
+
+27;Zoekmodus: 4 threads;Afgebroken;0.00;0%;Zoekmodus: 4 threads (gemiddelde 5 runs)
+Test 27 - Zoekmodus: 4 threads
+Zoekmodus: 4 threads (gemiddelde 5 runs)
+
+Invoer:
+(niet gestart)
+
+Uitvoer:
+(leeg)
+
+------------------------------------
+
+28;Zoekmodus: 1 thread;Afgebroken;0.00;0%;Baseline: 5 runs met 1 thread.
+Test 28 - Zoekmodus: 1 thread
+Baseline: 5 runs met 1 thread.
+
+Invoer:
+(niet gestart)
+
+Uitvoer:
+(leeg)
+
+------------------------------------
+
+29;Versnellingstest (Zoekmodus);Incorrect;-;-;Is je programma sneller met meer threads?
+Test 29 - Versnellingstest (Zoekmodus)
+Is je programma sneller met meer threads? Met deze test kijken we of je programma ook echt sneller gaat lopen als we meer threads gebruiken.
+
+Deze test kan niet beoordeeld worden als de voorafgaande tests niet zijn geslaagd.
+
+Deze test vergelijkt de snelheid van je programma op dezelfde invoer met een verschillend aantal cores. Dit werkt alleen correct als je computer genoeg 'echte' (niet virtuele) cores heeft. Als de versnelling niet hoog genoeg is, kan dit duiden op te agressieve locking of dat je programma niet parallel werkt. Let op dat het resultaat van deze test sterk afhangt van de gebruikte computer, deze test is dus alleen ter indicatie.
+
+------------------------------------
+
+30;Lijstmodus (Eigen Lock, 8 threads);Afgebroken;0.00;0%;Dit is een test of de lijstmodus werkt
+Test 30 - Lijstmodus (Eigen Lock, 8 threads)
+Dit is een test of de lijstmodus werkt
+
+Invoer:
+(niet gestart)
+
+Uitvoer:
+(leeg)
+
+------------------------------------
+
+31;Lijstmodus (C#-Lock, 8 threads);Afgebroken;0.00;0%;Dit is een test of de lijstmodus werkt
+Test 31 - Lijstmodus (C#-Lock, 8 threads)
+Dit is een test of de lijstmodus werkt
+
+Invoer:
+(niet gestart)
+
+Uitvoer:
+(leeg)
+
+Microsoft Windows NT 6.2.9200.0 (x64)
+.NET version: 4.0.30319.42000
+2 physical core(s), 4 virtual core(s) (hyperthreading), 1 processor(s)
